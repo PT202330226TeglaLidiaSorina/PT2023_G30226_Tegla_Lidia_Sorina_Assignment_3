@@ -5,8 +5,10 @@ public class Product {
     private String name;
     private double price;
     private int quantity;
+    public Product(){
 
-    public Product(int id, String name, double price, int quantity) {
+    }
+    public Product(int id, String name, int quantity,double price) {
         this.id = id;
         this.name = name;
         this.price = price;
